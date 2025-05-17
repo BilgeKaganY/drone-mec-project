@@ -1,38 +1,59 @@
 # common/config.py
 import argparse
+import configparser
+import os
+
+# Load config.ini if it exists
+_cfg = configparser.ConfigParser()
+_cfg.read(os.path.join(os.getcwd(), "config.ini"))
 
 def sensor_args():
+    defaults = _cfg["sensor"] if "sensor" in _cfg else {}
     p = argparse.ArgumentParser("Headless Sensor Node")
-    p.add_argument("--drone_ip",   required=True)
-    p.add_argument("--drone_port", type=int, required=True)
-    p.add_argument("--interval",   type=float, default=2.0,
-                   help="Seconds between readings")
-    p.add_argument("--retry",      type=float, default=5.0,
-                   help="Seconds before reconnect attempt")
-    p.add_argument("--id",         default="sensor1",
-                   help="Unique sensor ID")
+    p.add_argument("--drone_ip",
+        default=defaults.get("drone_ip"),
+        required="drone_ip" not in defaults)
+    p.add_argument("--drone_port",
+        type=int,
+        default=defaults.get("drone_port"),
+        required="drone_port" not in defaults)
+    p.add_argument("--interval",
+        type=float,
+        default=defaults.get("interval", 2.0))
+    p.add_argument("--retry",
+        type=float,
+        default=defaults.get("retry", 5.0))
+    p.add_argument("--id",
+        default=defaults.get("id", "sensor1"))
     return p.parse_args()
 
 def drone_args():
+    defaults = _cfg["drone"] if "drone" in _cfg else {}
     p = argparse.ArgumentParser("Drone Edge")
-    p.add_argument("--host",            default="0.0.0.0",
-                   help="IP to bind sensor‐server on")
-    p.add_argument("--port",            type=int, default=5000,
-                   help="Port to bind sensor‐server on")
-    p.add_argument("--central_ip",      default="127.0.0.1",
-                   help="IP of Central Server")
-    p.add_argument("--central_port",    type=int, default=6000,
-                   help="Port to bind Central Server")
-    p.add_argument("--battery_threshold", type=float, default=20.0,
-                   help="Level (%) below which drone returns to base")
-    p.add_argument("--drain_rate",      type=float, default=1.0,
-                   help="Battery % drained per second")
+    p.add_argument("--host",
+        default=defaults.get("host", "0.0.0.0"))
+    p.add_argument("--port",
+        type=int,
+        default=defaults.get("port", 5000))
+    p.add_argument("--central_ip",
+        default=defaults.get("central_ip", "127.0.0.1"))
+    p.add_argument("--central_port",
+        type=int,
+        default=defaults.get("central_port", 6000))
+    p.add_argument("--battery_threshold",
+        type=float,
+        default=defaults.get("battery_threshold", 20.0))
+    p.add_argument("--drain_rate",
+        type=float,
+        default=defaults.get("drain_rate", 1.0))
     return p.parse_args()
 
 def server_args():
+    defaults = _cfg["central"] if "central" in _cfg else {}
     p = argparse.ArgumentParser("Central Server")
-    p.add_argument("--host", default="0.0.0.0",
-                   help="IP to bind on")
-    p.add_argument("--port", type=int, default=6000,
-                   help="Port to bind on")
+    p.add_argument("--host",
+        default=defaults.get("host", "0.0.0.0"))
+    p.add_argument("--port",
+        type=int,
+        default=defaults.get("port", 6000))
     return p.parse_args()

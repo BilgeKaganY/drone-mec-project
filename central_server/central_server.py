@@ -4,6 +4,10 @@ import logging
 import threading
 import queue
 import json
+import threading
+import logging
+from logging.handlers import RotatingFileHandler
+from central_server.gui import start_gui
 
 from common.config import server_args
 
@@ -32,7 +36,13 @@ def main():
         format="%(asctime)s [%(levelname)s] %(message)s"
     )
 
+    # Rotating file handler
+    fh = RotatingFileHandler("central.log", maxBytes=2_000_000, backupCount=5)
+    fh.setFormatter(logging.Formatter("%(asctime)s [%(levelname)s] %(message)s"))
+    logging.getLogger().addHandler(fh)
+
     display_q = queue.Queue()
+    threading.Thread(target=start_gui, args=(display_q,), daemon=True).start()
 
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as srv:
         srv.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)

@@ -3,15 +3,26 @@ import logging
 import random
 import socket
 import time
+import logging
+from logging.handlers import RotatingFileHandler
 
 from common.config   import sensor_args
 from common.protocols import make_sensor_payload
 
 def setup_logging(sensor_id):
-    logging.basicConfig(
-        format=f"%(asctime)s [%(levelname)s] [{sensor_id}] %(message)s",
-        level=logging.INFO
-    )
+    logger = logging.getLogger()
+    logger.setLevel(logging.INFO)
+    fmt = logging.Formatter(f"%(asctime)s [%(levelname)s] [{sensor_id}] %(message)s")
+    # Console
+    ch = logging.StreamHandler()
+    ch.setFormatter(fmt)
+    logger.addHandler(ch)
+    # File
+    fh = RotatingFileHandler(f"sensor_{sensor_id}.log",
+                             maxBytes=1_000_000,
+                             backupCount=3)
+    fh.setFormatter(fmt)
+    logger.addHandler(fh)
 
 def connect_with_retry(ip, port, retry_interval):
     while True:

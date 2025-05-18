@@ -5,6 +5,8 @@ import json
 import collections
 import logging
 from datetime import datetime, timezone
+import logging
+from logging.handlers import RotatingFileHandler
 
 from common.config      import drone_args
 from drone.battery      import Battery
@@ -75,6 +77,11 @@ def main():
         level=logging.INFO,
         format="%(asctime)s [%(levelname)s] %(message)s"
     )
+    
+    # Rotating file handler for drone
+    fh = RotatingFileHandler("drone.log", maxBytes=2_000_000, backupCount=5)
+    fh.setFormatter(logging.Formatter("%(asctime)s [%(levelname)s] %(message)s"))
+    logging.getLogger().addHandler(fh)
 
     args   = drone_args()
     data_q = queue.Queue()

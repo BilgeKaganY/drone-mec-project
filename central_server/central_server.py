@@ -50,7 +50,6 @@ def main():
         srv.listen()
         logging.info(f"Central Server listening on {args.host}:{args.port}")
 
-        # (You can also start the GUI here by importing central_server.gui)
         while True:
             conn, addr = srv.accept()
             threading.Thread(

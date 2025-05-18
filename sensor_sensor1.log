@@ -183,3 +183,58 @@
 2025-05-18 20:10:39,532 [ERROR] [sensor1] Connection failed: [WinError 10061] Hedef makine etkin olarak reddettiðinden baðlantý kurulamadý. Retrying in 5.0s.
 2025-05-18 20:10:46,570 [ERROR] [sensor1] Connection failed: [WinError 10061] Hedef makine etkin olarak reddettiðinden baðlantý kurulamadý. Retrying in 5.0s.
 2025-05-18 20:10:53,617 [ERROR] [sensor1] Connection failed: [WinError 10061] Hedef makine etkin olarak reddettiðinden baðlantý kurulamadý. Retrying in 5.0s.
+2025-05-18 21:25:46,669 [INFO] [sensor1] Connected to Drone at 127.0.0.1:5000
+2025-05-18 21:25:46,670 [INFO] [sensor1] Sent: temp=27.99°C, hum=66.68%
+2025-05-18 21:25:48,675 [INFO] [sensor1] Sent: temp=28.53°C, hum=50.8%
+2025-05-18 21:25:50,685 [INFO] [sensor1] Sent: temp=23.74°C, hum=49.0%
+2025-05-18 21:25:52,224 [INFO] [sensor1] Connected to Drone at 127.0.0.1:5000
+2025-05-18 21:25:52,225 [INFO] [sensor1] Sent: temp=20.74°C, hum=32.7%
+2025-05-18 21:25:52,687 [INFO] [sensor1] Sent: temp=22.11°C, hum=47.53%
+2025-05-18 21:25:54,239 [INFO] [sensor1] Sent: temp=27.63°C, hum=61.39%
+2025-05-18 21:25:54,693 [INFO] [sensor1] Sent: temp=25.38°C, hum=66.3%
+2025-05-18 21:25:56,248 [INFO] [sensor1] Sent: temp=28.7°C, hum=45.51%
+2025-05-18 21:25:56,701 [INFO] [sensor1] Sent: temp=26.79°C, hum=38.61%
+2025-05-18 21:25:58,259 [INFO] [sensor1] Sent: temp=28.89°C, hum=74.49%
+2025-05-18 21:25:58,712 [INFO] [sensor1] Sent: temp=23.54°C, hum=79.65%
+2025-05-18 21:26:00,274 [INFO] [sensor1] Sent: temp=22.55°C, hum=48.91%
+2025-05-18 21:26:00,714 [INFO] [sensor1] Sent: temp=27.45°C, hum=57.16%
+2025-05-18 21:26:02,286 [INFO] [sensor1] Sent: temp=26.51°C, hum=35.2%
+2025-05-18 21:26:02,726 [INFO] [sensor1] Sent: temp=28.73°C, hum=47.91%
+2025-05-18 21:26:04,292 [INFO] [sensor1] Sent: temp=28.12°C, hum=75.78%
+2025-05-18 21:26:04,733 [INFO] [sensor1] Sent: temp=25.53°C, hum=57.71%
+2025-05-18 21:26:06,308 [INFO] [sensor1] Sent: temp=28.19°C, hum=79.06%
+2025-05-18 21:26:06,745 [INFO] [sensor1] Sent: temp=28.32°C, hum=52.27%
+2025-05-18 21:26:08,316 [INFO] [sensor1] Sent: temp=23.98°C, hum=67.34%
+2025-05-18 21:26:08,754 [INFO] [sensor1] Sent: temp=23.92°C, hum=58.91%
+2025-05-18 21:26:10,317 [INFO] [sensor1] Sent: temp=25.41°C, hum=58.56%
+2025-05-18 21:26:10,759 [INFO] [sensor1] Sent: temp=27.94°C, hum=57.5%
+2025-05-18 21:26:12,323 [INFO] [sensor1] Sent: temp=20.41°C, hum=71.34%
+2025-05-18 21:26:12,763 [INFO] [sensor1] Sent: temp=20.04°C, hum=34.81%
+2025-05-18 21:26:14,328 [INFO] [sensor1] Sent: temp=28.57°C, hum=65.7%
+2025-05-18 21:26:14,769 [INFO] [sensor1] Sent: temp=25.91°C, hum=58.73%
+2025-05-18 21:26:16,339 [INFO] [sensor1] Sent: temp=27.69°C, hum=37.08%
+2025-05-18 21:26:16,770 [INFO] [sensor1] Sent: temp=29.08°C, hum=61.95%
+2025-05-18 21:26:18,342 [INFO] [sensor1] Sent: temp=26.9°C, hum=52.85%
+2025-05-18 21:26:18,780 [INFO] [sensor1] Sent: temp=21.13°C, hum=44.91%
+2025-05-18 21:26:20,343 [INFO] [sensor1] Sent: temp=20.52°C, hum=46.54%
+2025-05-18 21:26:20,794 [INFO] [sensor1] Sent: temp=21.92°C, hum=50.82%
+2025-05-18 21:26:22,351 [INFO] [sensor1] Sent: temp=22.1°C, hum=76.53%
+2025-05-18 21:26:22,806 [INFO] [sensor1] Sent: temp=25.38°C, hum=63.57%
+2025-05-18 21:26:24,359 [INFO] [sensor1] Sent: temp=25.61°C, hum=42.03%
+2025-05-18 21:26:24,813 [INFO] [sensor1] Sent: temp=28.96°C, hum=59.31%
+2025-05-18 21:26:26,369 [INFO] [sensor1] Sent: temp=29.32°C, hum=34.06%
+2025-05-18 21:26:26,823 [INFO] [sensor1] Sent: temp=21.48°C, hum=69.82%
+2025-05-18 21:26:28,385 [ERROR] [sensor1] Send failed: [WinError 10054] Varolan bir baðlantý uzaktaki bir ana bilgisayar tarafýndan zorla kapatýldý. Reconnecting...
+2025-05-18 21:26:28,837 [ERROR] [sensor1] Send failed: [WinError 10054] Varolan bir baðlantý uzaktaki bir ana bilgisayar tarafýndan zorla kapatýldý. Reconnecting...
+2025-05-18 21:26:30,427 [ERROR] [sensor1] Connection failed: [WinError 10061] Hedef makine etkin olarak reddettiðinden baðlantý kurulamadý. Retrying in 5.0s.
+2025-05-18 21:26:30,866 [ERROR] [sensor1] Connection failed: [WinError 10061] Hedef makine etkin olarak reddettiðinden baðlantý kurulamadý. Retrying in 5.0s.
+2025-05-18 21:26:37,483 [ERROR] [sensor1] Connection failed: [WinError 10061] Hedef makine etkin olarak reddettiðinden baðlantý kurulamadý. Retrying in 5.0s.
+2025-05-18 21:26:37,891 [ERROR] [sensor1] Connection failed: [WinError 10061] Hedef makine etkin olarak reddettiðinden baðlantý kurulamadý. Retrying in 5.0s.
+2025-05-18 21:26:44,503 [ERROR] [sensor1] Connection failed: [WinError 10061] Hedef makine etkin olarak reddettiðinden baðlantý kurulamadý. Retrying in 5.0s.
+2025-05-18 21:26:44,920 [ERROR] [sensor1] Connection failed: [WinError 10061] Hedef makine etkin olarak reddettiðinden baðlantý kurulamadý. Retrying in 5.0s.
+2025-05-18 21:26:51,535 [ERROR] [sensor1] Connection failed: [WinError 10061] Hedef makine etkin olarak reddettiðinden baðlantý kurulamadý. Retrying in 5.0s.
+2025-05-18 21:26:51,974 [ERROR] [sensor1] Connection failed: [WinError 10061] Hedef makine etkin olarak reddettiðinden baðlantý kurulamadý. Retrying in 5.0s.
+2025-05-18 21:26:58,593 [ERROR] [sensor1] Connection failed: [WinError 10061] Hedef makine etkin olarak reddettiðinden baðlantý kurulamadý. Retrying in 5.0s.
+2025-05-18 21:26:59,028 [ERROR] [sensor1] Connection failed: [WinError 10061] Hedef makine etkin olarak reddettiðinden baðlantý kurulamadý. Retrying in 5.0s.
+2025-05-18 21:27:05,646 [ERROR] [sensor1] Connection failed: [WinError 10061] Hedef makine etkin olarak reddettiðinden baðlantý kurulamadý. Retrying in 5.0s.
+2025-05-18 21:27:06,084 [ERROR] [sensor1] Connection failed: [WinError 10061] Hedef makine etkin olarak reddettiðinden baðlantý kurulamadý. Retrying in 5.0s.

@@ -1,0 +1,91 @@
+2025-05-18 21:25:46,566 [INFO] Drone server listening on 0.0.0.0:5000
+2025-05-18 21:25:46,669 [INFO] New sensor connected from ('127.0.0.1', 58823)
+2025-05-18 21:25:46,671 [INFO] Handler for ('127.0.0.1', 58823) started
+2025-05-18 21:25:46,672 [INFO] [('127.0.0.1', 58823)] {"sensor_id": "sensor1", "temperature": 27.99, "humidity": 66.68, "timestamp": "2025-05-18T18:25:46.670539+00:00"}
+2025-05-18 21:25:46,679 [INFO] Connected to Central Server at 127.0.0.1:6000
+2025-05-18 21:25:46,685 [INFO] New sensor connected from ('127.0.0.1', 58824)
+2025-05-18 21:25:46,687 [INFO] Handler for ('127.0.0.1', 58824) started
+2025-05-18 21:25:46,688 [INFO] [('127.0.0.1', 58824)] {"sensor_id": "sensor2", "temperature": 24.59, "humidity": 34.07, "timestamp": "2025-05-18T18:25:46.686536+00:00"}
+2025-05-18 21:25:48,675 [INFO] [('127.0.0.1', 58823)] {"sensor_id": "sensor1", "temperature": 28.53, "humidity": 50.8, "timestamp": "2025-05-18T18:25:48.675387+00:00"}
+2025-05-18 21:25:48,690 [INFO] [('127.0.0.1', 58824)] {"sensor_id": "sensor2", "temperature": 20.68, "humidity": 52.23, "timestamp": "2025-05-18T18:25:48.690711+00:00"}
+2025-05-18 21:25:50,685 [INFO] [('127.0.0.1', 58823)] {"sensor_id": "sensor1", "temperature": 23.74, "humidity": 49.0, "timestamp": "2025-05-18T18:25:50.685819+00:00"}
+2025-05-18 21:25:50,701 [INFO] [('127.0.0.1', 58824)] {"sensor_id": "sensor2", "temperature": 24.62, "humidity": 56.97, "timestamp": "2025-05-18T18:25:50.701141+00:00"}
+2025-05-18 21:25:52,244 [INFO] New sensor connected from ('127.0.0.1', 58828)
+2025-05-18 21:25:52,256 [INFO] Handler for ('127.0.0.1', 58828) started
+2025-05-18 21:25:52,259 [INFO] [('127.0.0.1', 58828)] {"sensor_id": "sensor1", "temperature": 20.74, "humidity": 32.7, "timestamp": "2025-05-18T18:25:52.225438+00:00"}
+2025-05-18 21:25:52,280 [ERROR] Send to CentralServer failed: [WinError 10054] Varolan bir baðlantý uzaktaki bir ana bilgisayar tarafýndan zorla kapatýldý. Reconnecting...
+2025-05-18 21:25:52,310 [INFO] Connected to Central Server at 127.0.0.1:6000
+2025-05-18 21:25:52,354 [INFO] Drone server listening on 0.0.0.0:5000
+2025-05-18 21:25:52,687 [INFO] [('127.0.0.1', 58823)] {"sensor_id": "sensor1", "temperature": 22.11, "humidity": 47.53, "timestamp": "2025-05-18T18:25:52.687633+00:00"}
+2025-05-18 21:25:52,703 [INFO] [('127.0.0.1', 58824)] {"sensor_id": "sensor2", "temperature": 24.45, "humidity": 61.88, "timestamp": "2025-05-18T18:25:52.703626+00:00"}
+2025-05-18 21:25:54,236 [INFO] New sensor connected from ('127.0.0.1', 58830)
+2025-05-18 21:25:54,237 [INFO] Handler for ('127.0.0.1', 58830) started
+2025-05-18 21:25:54,238 [INFO] [('127.0.0.1', 58830)] {"sensor_id": "sensor2", "temperature": 23.61, "humidity": 70.97, "timestamp": "2025-05-18T18:25:54.236545+00:00"}
+2025-05-18 21:25:54,239 [INFO] [('127.0.0.1', 58828)] {"sensor_id": "sensor1", "temperature": 27.63, "humidity": 61.39, "timestamp": "2025-05-18T18:25:54.239544+00:00"}
+2025-05-18 21:25:54,693 [INFO] [('127.0.0.1', 58823)] {"sensor_id": "sensor1", "temperature": 25.38, "humidity": 66.3, "timestamp": "2025-05-18T18:25:54.693252+00:00"}
+2025-05-18 21:25:54,708 [INFO] [('127.0.0.1', 58824)] {"sensor_id": "sensor2", "temperature": 20.47, "humidity": 67.95, "timestamp": "2025-05-18T18:25:54.708217+00:00"}
+2025-05-18 21:25:56,248 [INFO] [('127.0.0.1', 58828)] {"sensor_id": "sensor1", "temperature": 28.7, "humidity": 45.51, "timestamp": "2025-05-18T18:25:56.248129+00:00"}
+2025-05-18 21:25:56,248 [INFO] [('127.0.0.1', 58830)] {"sensor_id": "sensor2", "temperature": 26.63, "humidity": 37.88, "timestamp": "2025-05-18T18:25:56.248129+00:00"}
+2025-05-18 21:25:56,708 [INFO] [('127.0.0.1', 58823)] {"sensor_id": "sensor1", "temperature": 26.79, "humidity": 38.61, "timestamp": "2025-05-18T18:25:56.701283+00:00"}
+2025-05-18 21:25:56,735 [INFO] [('127.0.0.1', 58824)] {"sensor_id": "sensor2", "temperature": 26.18, "humidity": 58.31, "timestamp": "2025-05-18T18:25:56.717283+00:00"}
+2025-05-18 21:25:58,259 [INFO] [('127.0.0.1', 58828)] {"sensor_id": "sensor1", "temperature": 28.89, "humidity": 74.49, "timestamp": "2025-05-18T18:25:58.259322+00:00"}
+2025-05-18 21:25:58,259 [INFO] [('127.0.0.1', 58830)] {"sensor_id": "sensor2", "temperature": 24.83, "humidity": 37.04, "timestamp": "2025-05-18T18:25:58.259322+00:00"}
+2025-05-18 21:25:58,712 [INFO] [('127.0.0.1', 58823)] {"sensor_id": "sensor1", "temperature": 23.54, "humidity": 79.65, "timestamp": "2025-05-18T18:25:58.712449+00:00"}
+2025-05-18 21:25:58,728 [INFO] [('127.0.0.1', 58824)] {"sensor_id": "sensor2", "temperature": 20.63, "humidity": 56.68, "timestamp": "2025-05-18T18:25:58.728441+00:00"}
+2025-05-18 21:26:00,274 [INFO] [('127.0.0.1', 58828)] {"sensor_id": "sensor1", "temperature": 22.55, "humidity": 48.91, "timestamp": "2025-05-18T18:26:00.274334+00:00"}
+2025-05-18 21:26:00,274 [INFO] [('127.0.0.1', 58830)] {"sensor_id": "sensor2", "temperature": 26.52, "humidity": 64.82, "timestamp": "2025-05-18T18:26:00.274334+00:00"}
+2025-05-18 21:26:00,714 [INFO] [('127.0.0.1', 58823)] {"sensor_id": "sensor1", "temperature": 27.45, "humidity": 57.16, "timestamp": "2025-05-18T18:26:00.714950+00:00"}
+2025-05-18 21:26:00,730 [INFO] [('127.0.0.1', 58824)] {"sensor_id": "sensor2", "temperature": 26.14, "humidity": 37.6, "timestamp": "2025-05-18T18:26:00.730950+00:00"}
+2025-05-18 21:26:02,286 [INFO] [('127.0.0.1', 58828)] {"sensor_id": "sensor1", "temperature": 26.51, "humidity": 35.2, "timestamp": "2025-05-18T18:26:02.286651+00:00"}
+2025-05-18 21:26:02,286 [INFO] [('127.0.0.1', 58830)] {"sensor_id": "sensor2", "temperature": 29.87, "humidity": 62.3, "timestamp": "2025-05-18T18:26:02.286651+00:00"}
+2025-05-18 21:26:02,726 [INFO] [('127.0.0.1', 58823)] {"sensor_id": "sensor1", "temperature": 28.73, "humidity": 47.91, "timestamp": "2025-05-18T18:26:02.726394+00:00"}
+2025-05-18 21:26:02,741 [INFO] [('127.0.0.1', 58824)] {"sensor_id": "sensor2", "temperature": 20.4, "humidity": 72.32, "timestamp": "2025-05-18T18:26:02.741955+00:00"}
+2025-05-18 21:26:04,292 [INFO] [('127.0.0.1', 58828)] {"sensor_id": "sensor1", "temperature": 28.12, "humidity": 75.78, "timestamp": "2025-05-18T18:26:04.292615+00:00"}
+2025-05-18 21:26:04,292 [INFO] [('127.0.0.1', 58830)] {"sensor_id": "sensor2", "temperature": 27.34, "humidity": 38.44, "timestamp": "2025-05-18T18:26:04.292615+00:00"}
+2025-05-18 21:26:04,733 [INFO] [('127.0.0.1', 58823)] {"sensor_id": "sensor1", "temperature": 25.53, "humidity": 57.71, "timestamp": "2025-05-18T18:26:04.733610+00:00"}
+2025-05-18 21:26:04,749 [INFO] [('127.0.0.1', 58824)] {"sensor_id": "sensor2", "temperature": 24.53, "humidity": 64.57, "timestamp": "2025-05-18T18:26:04.749610+00:00"}
+2025-05-18 21:26:06,308 [INFO] [('127.0.0.1', 58828)] {"sensor_id": "sensor1", "temperature": 28.19, "humidity": 79.06, "timestamp": "2025-05-18T18:26:06.308610+00:00"}
+2025-05-18 21:26:06,308 [INFO] [('127.0.0.1', 58830)] {"sensor_id": "sensor2", "temperature": 22.33, "humidity": 42.0, "timestamp": "2025-05-18T18:26:06.308610+00:00"}
+2025-05-18 21:26:06,745 [INFO] [('127.0.0.1', 58823)] {"sensor_id": "sensor1", "temperature": 28.32, "humidity": 52.27, "timestamp": "2025-05-18T18:26:06.745647+00:00"}
+2025-05-18 21:26:06,761 [INFO] [('127.0.0.1', 58824)] {"sensor_id": "sensor2", "temperature": 27.13, "humidity": 31.4, "timestamp": "2025-05-18T18:26:06.761650+00:00"}
+2025-05-18 21:26:08,316 [INFO] [('127.0.0.1', 58828)] {"sensor_id": "sensor1", "temperature": 23.98, "humidity": 67.34, "timestamp": "2025-05-18T18:26:08.316169+00:00"}
+2025-05-18 21:26:08,316 [INFO] [('127.0.0.1', 58830)] {"sensor_id": "sensor2", "temperature": 21.88, "humidity": 78.8, "timestamp": "2025-05-18T18:26:08.316169+00:00"}
+2025-05-18 21:26:08,754 [INFO] [('127.0.0.1', 58823)] {"sensor_id": "sensor1", "temperature": 23.92, "humidity": 58.91, "timestamp": "2025-05-18T18:26:08.754141+00:00"}
+2025-05-18 21:26:08,775 [INFO] [('127.0.0.1', 58824)] {"sensor_id": "sensor2", "temperature": 22.73, "humidity": 44.24, "timestamp": "2025-05-18T18:26:08.769135+00:00"}
+2025-05-18 21:26:10,317 [INFO] [('127.0.0.1', 58828)] {"sensor_id": "sensor1", "temperature": 25.41, "humidity": 58.56, "timestamp": "2025-05-18T18:26:10.317720+00:00"}
+2025-05-18 21:26:10,317 [INFO] [('127.0.0.1', 58830)] {"sensor_id": "sensor2", "temperature": 23.81, "humidity": 50.31, "timestamp": "2025-05-18T18:26:10.317720+00:00"}
+2025-05-18 21:26:10,319 [WARNING] Battery low—entering RETURN-TO-BASE (queuing mode)
+2025-05-18 21:26:10,759 [INFO] [('127.0.0.1', 58823)] {"sensor_id": "sensor1", "temperature": 27.94, "humidity": 57.5, "timestamp": "2025-05-18T18:26:10.759098+00:00"}
+2025-05-18 21:26:10,774 [INFO] [('127.0.0.1', 58824)] {"sensor_id": "sensor2", "temperature": 29.06, "humidity": 43.19, "timestamp": "2025-05-18T18:26:10.774100+00:00"}
+2025-05-18 21:26:12,323 [INFO] [('127.0.0.1', 58828)] {"sensor_id": "sensor1", "temperature": 20.41, "humidity": 71.34, "timestamp": "2025-05-18T18:26:12.323896+00:00"}
+2025-05-18 21:26:12,324 [INFO] [('127.0.0.1', 58830)] {"sensor_id": "sensor2", "temperature": 20.14, "humidity": 78.9, "timestamp": "2025-05-18T18:26:12.323896+00:00"}
+2025-05-18 21:26:12,763 [INFO] [('127.0.0.1', 58823)] {"sensor_id": "sensor1", "temperature": 20.04, "humidity": 34.81, "timestamp": "2025-05-18T18:26:12.763470+00:00"}
+2025-05-18 21:26:12,779 [INFO] [('127.0.0.1', 58824)] {"sensor_id": "sensor2", "temperature": 24.43, "humidity": 44.11, "timestamp": "2025-05-18T18:26:12.779347+00:00"}
+2025-05-18 21:26:14,328 [INFO] [('127.0.0.1', 58828)] {"sensor_id": "sensor1", "temperature": 28.57, "humidity": 65.7, "timestamp": "2025-05-18T18:26:14.328608+00:00"}
+2025-05-18 21:26:14,343 [INFO] [('127.0.0.1', 58830)] {"sensor_id": "sensor2", "temperature": 23.63, "humidity": 63.63, "timestamp": "2025-05-18T18:26:14.328608+00:00"}
+2025-05-18 21:26:14,769 [INFO] [('127.0.0.1', 58823)] {"sensor_id": "sensor1", "temperature": 25.91, "humidity": 58.73, "timestamp": "2025-05-18T18:26:14.769159+00:00"}
+2025-05-18 21:26:14,785 [INFO] [('127.0.0.1', 58824)] {"sensor_id": "sensor2", "temperature": 20.04, "humidity": 38.12, "timestamp": "2025-05-18T18:26:14.785230+00:00"}
+2025-05-18 21:26:16,339 [INFO] [('127.0.0.1', 58830)] {"sensor_id": "sensor2", "temperature": 21.53, "humidity": 64.96, "timestamp": "2025-05-18T18:26:16.339438+00:00"}
+2025-05-18 21:26:16,339 [INFO] [('127.0.0.1', 58828)] {"sensor_id": "sensor1", "temperature": 27.69, "humidity": 37.08, "timestamp": "2025-05-18T18:26:16.339438+00:00"}
+2025-05-18 21:26:16,770 [INFO] [('127.0.0.1', 58823)] {"sensor_id": "sensor1", "temperature": 29.08, "humidity": 61.95, "timestamp": "2025-05-18T18:26:16.770443+00:00"}
+2025-05-18 21:26:16,801 [INFO] [('127.0.0.1', 58824)] {"sensor_id": "sensor2", "temperature": 24.78, "humidity": 54.84, "timestamp": "2025-05-18T18:26:16.801405+00:00"}
+2025-05-18 21:26:18,342 [INFO] [('127.0.0.1', 58830)] {"sensor_id": "sensor2", "temperature": 25.16, "humidity": 67.67, "timestamp": "2025-05-18T18:26:18.342377+00:00"}
+2025-05-18 21:26:18,342 [INFO] [('127.0.0.1', 58828)] {"sensor_id": "sensor1", "temperature": 26.9, "humidity": 52.85, "timestamp": "2025-05-18T18:26:18.342377+00:00"}
+2025-05-18 21:26:18,782 [INFO] [('127.0.0.1', 58823)] {"sensor_id": "sensor1", "temperature": 21.13, "humidity": 44.91, "timestamp": "2025-05-18T18:26:18.780945+00:00"}
+2025-05-18 21:26:18,812 [INFO] [('127.0.0.1', 58824)] {"sensor_id": "sensor2", "temperature": 27.45, "humidity": 41.1, "timestamp": "2025-05-18T18:26:18.812910+00:00"}
+2025-05-18 21:26:20,343 [INFO] [('127.0.0.1', 58828)] {"sensor_id": "sensor1", "temperature": 20.52, "humidity": 46.54, "timestamp": "2025-05-18T18:26:20.343632+00:00"}
+2025-05-18 21:26:20,343 [INFO] [('127.0.0.1', 58830)] {"sensor_id": "sensor2", "temperature": 25.06, "humidity": 44.0, "timestamp": "2025-05-18T18:26:20.343632+00:00"}
+2025-05-18 21:26:20,794 [INFO] [('127.0.0.1', 58823)] {"sensor_id": "sensor1", "temperature": 21.92, "humidity": 50.82, "timestamp": "2025-05-18T18:26:20.794548+00:00"}
+2025-05-18 21:26:20,826 [INFO] [('127.0.0.1', 58824)] {"sensor_id": "sensor2", "temperature": 23.45, "humidity": 41.21, "timestamp": "2025-05-18T18:26:20.826512+00:00"}
+2025-05-18 21:26:22,351 [INFO] [('127.0.0.1', 58828)] {"sensor_id": "sensor1", "temperature": 22.1, "humidity": 76.53, "timestamp": "2025-05-18T18:26:22.351802+00:00"}
+2025-05-18 21:26:22,351 [INFO] [('127.0.0.1', 58830)] {"sensor_id": "sensor2", "temperature": 20.53, "humidity": 46.38, "timestamp": "2025-05-18T18:26:22.351802+00:00"}
+2025-05-18 21:26:22,806 [INFO] [('127.0.0.1', 58823)] {"sensor_id": "sensor1", "temperature": 25.38, "humidity": 63.57, "timestamp": "2025-05-18T18:26:22.806835+00:00"}
+2025-05-18 21:26:22,838 [INFO] [('127.0.0.1', 58824)] {"sensor_id": "sensor2", "temperature": 20.59, "humidity": 48.38, "timestamp": "2025-05-18T18:26:22.838135+00:00"}
+2025-05-18 21:26:24,388 [INFO] [('127.0.0.1', 58830)] {"sensor_id": "sensor2", "temperature": 20.39, "humidity": 36.37, "timestamp": "2025-05-18T18:26:24.359681+00:00"}
+2025-05-18 21:26:24,389 [INFO] [('127.0.0.1', 58828)] {"sensor_id": "sensor1", "temperature": 25.61, "humidity": 42.03, "timestamp": "2025-05-18T18:26:24.359681+00:00"}
+2025-05-18 21:26:24,813 [INFO] [('127.0.0.1', 58823)] {"sensor_id": "sensor1", "temperature": 28.96, "humidity": 59.31, "timestamp": "2025-05-18T18:26:24.813931+00:00"}
+2025-05-18 21:26:24,844 [INFO] [('127.0.0.1', 58824)] {"sensor_id": "sensor2", "temperature": 25.88, "humidity": 69.82, "timestamp": "2025-05-18T18:26:24.844339+00:00"}
+2025-05-18 21:26:26,370 [INFO] [('127.0.0.1', 58830)] {"sensor_id": "sensor2", "temperature": 21.68, "humidity": 72.88, "timestamp": "2025-05-18T18:26:26.369509+00:00"}
+2025-05-18 21:26:26,370 [INFO] [('127.0.0.1', 58828)] {"sensor_id": "sensor1", "temperature": 29.32, "humidity": 34.06, "timestamp": "2025-05-18T18:26:26.369509+00:00"}
+2025-05-18 21:26:26,823 [INFO] [('127.0.0.1', 58823)] {"sensor_id": "sensor1", "temperature": 21.48, "humidity": 69.82, "timestamp": "2025-05-18T18:26:26.823271+00:00"}
+2025-05-18 21:26:26,853 [INFO] [('127.0.0.1', 58824)] {"sensor_id": "sensor2", "temperature": 28.25, "humidity": 75.72, "timestamp": "2025-05-18T18:26:26.853271+00:00"}
